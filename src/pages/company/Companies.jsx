@@ -193,7 +193,7 @@ const Companies = () => {
                       variant="contained"
                       sx={{ mr: 1 }}
                       onClick={() =>
-                        (window.location.href = `/companies/${company._id}`)
+                        navigate(`/companies/${company._id}`)
                         //onClick={() => navigate(`/companies/${company._id}`)}
                       }
                     >
